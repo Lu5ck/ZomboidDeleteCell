@@ -61,10 +61,6 @@ do
 		# Remove map which is divided into blocks
 		# Soft delete the files by moving them to backup dir
 		mv -f Saves/Multiplayer/servertest/map_${zdcTemp1}_${zdcTemp2}.bin ${zdcBackupDir} 2>/dev/null
-		
-		# Remove datachunk (not chunkdata) which is divided into blocks
-		# Soft delete the files by moving them to backup dir
-		mv -f Saves/Multiplayer/servertest/isoregiondata/datachunk_${zdcTemp1}_${zdcTemp2}.bin ${zdcBackupDir} 2>/dev/null
 	done
 done
 
